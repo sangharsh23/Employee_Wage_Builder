@@ -31,7 +31,7 @@ public class Employee_Wage_Builder {
                     empHrs = 0;
             }
             totalEmpHrs += empHrs;
-            System.out.println("totalWorkday" + " Emp Hrs :" + empHrs);
+            System.out.println("totalWorkday" + " Emp Hrs :" + totalEmpHrs);
         }
             int totalEmpWage = EMP_WAGE_PER_HOUR * totalEmpHrs;
             System.out.println("total Emp Wage: " + totalEmpWage);
